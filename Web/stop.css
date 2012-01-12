@@ -1,0 +1,192 @@
+﻿h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: .6em 0;
+}
+
+h1 {
+    font-size: 2.6em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+
+li ul, li ol {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1em;
+    line-height: 1.538em;
+}
+
+a {
+    color: #0071bc;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a img {
+    border: none;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+.clear-fix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(246, 246, 246);
+    background-image: url("../Images/Background.png");
+    background-repeat: repeat-x;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI" , "Trebuchet MS" , Verdana, Helvetica, Sans-Serif;
+}
+
+.content-wrapper {
+    margin: 20px auto 0 auto;
+    min-width: 960px;
+    width: 960px;
+}
+
+/* Main Headings */
+#sopaGraphic {
+    display: block;
+    margin: 0 auto;
+}
+
+.big-heading {
+    color: #494a52;
+    margin: 0;
+    text-align: center;
+}
+
+h1.big-heading {
+    font-size: 7em;
+    font-weight: 800;
+}
+
+h2.big-heading {
+    font-size: 4.5em;
+    font-weight: 800;
+}
+
+/* Content */
+#explain {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#explain p {
+    float: left;
+    width: 450px;
+}
+
+#explain iframe {
+    float: right;
+    border: solid 1px #494a52;
+}
+
+#learnMore {
+    font-size: 2.5em;
+    list-style: none;
+    text-align: center;
+}
+
+#learnMore li {
+    margin-bottom: 20px;
+}
+
+#getInvolved {
+    font-size: 2em;
+}
+
+/* Forms */
+fieldset.form {
+    border: none;
+    clear: both;
+    padding: 0;
+}
+
+fieldset.form legend {
+    display: none;
+}
+
+fieldset.form .float-right {
+    float: right;
+}
+
+fieldset.form .float-left {
+    float: left;
+}
+
+.form input[type="submit"] {
+    background-color: #4585aa;
+    background-image: -ms-linear-gradient(top, #4585aa 0%, #376783 100%);
+    background-image: -o-linear-gradient(top, #4585aa 0%, #376783 100%);
+    background-image: -webkit-linear-gradient(top, #4585aa 0%, #376783 100%);
+    background-image: linear-gradient(top, #4585aa 0%, #376783 100%);
+    border: solid 1px #376783;
+    box-shadow: inset 0px 0px 1px rgba(255,255,255,1), 1px 1px 1px rgba(0,0,0,0.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 3em;
+    font-weight: 500;
+    text-decoration: none;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #307A25;
+    background-image: -ms-linear-gradient(top, #307A25 0%, #2C9E1B 100%);
+    background-image: -o-linear-gradient(top, #307A25 0%, #2C9E1B 100%);
+    background-image: -webkit-linear-gradient(top, #307A25 0%, #2C9E1B 100%);
+    background-image: linear-gradient(top, #307A25 0%, #2C9E1B 100%);
+    border-color: #307A25;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form-field label {
+    color: #52a4ca;
+    display: block;
+    font-size: 1.75em;
+    margin-bottom: 5px;
+}
+
+
+.form-field textarea, .form-field input[type="text"] {
+    border: solid 1px #ccc;
+    color: #7f8c7d;
+    font-size: 1.75em;
+    padding: 5px 0 5px 10px;
+    width: 400px;
+    vertical-align: middle;
+}
+
+.form-field textarea {
+    font-size: 1.4em;
+    height: 200px;
+    width: 450px;
+    padding-top: 5px;
+}
