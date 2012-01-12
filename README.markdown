@@ -4,4 +4,4 @@ Congress is about to pass internet censorship, even though the vast majority of 
 
 ## Get Involved
 
-Get involved and join me and others by blacking out your website (I will post stop.html as my own web presence) on January 18th from 8am–8pm EST (1300–0100 UTC).
+Get involved and join me and others by blacking out your website (I will post stop.html as my own web presence) on January 18th from 8am - 8pm EST (1300 - 0100 UTC).
