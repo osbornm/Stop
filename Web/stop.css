@@ -52,7 +52,7 @@ html, body {
 
 body {
     background-color: rgb(246, 246, 246);
-    background-image: url("../Images/Background.png");
+    background-image: url("Images/Background.png");
     background-repeat: repeat-x;
     color: #333;
     font-size: .85em;
